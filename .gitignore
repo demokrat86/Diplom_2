@@ -187,3 +187,9 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+# Игнорирование директории __pycache__
+__pycache__/
+
+# Дополнительно можно игнорировать скомпилированные файлы Python
+*.py[oc]
