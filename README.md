@@ -17,6 +17,6 @@
 Установить в зависимости — pip freeze > requirements.txt
 Установить pytest — pip install pytest
 Установить библиотеку allure-pytest — pip install allure-pytest
-Запустить тесты — pytest tests --alluredir=allure_results
+Запустить тесты — python -m pytest tests --alluredir=allure_results
 Посмотреть веб отчет — allure serve allure_results
-Посмотреть степень покрытия — pytest --cov  
+Посмотреть степень покрытия — python -m pytest --cov  

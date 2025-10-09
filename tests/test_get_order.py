@@ -23,5 +23,5 @@ class TestGetOrder:
     @allure.title('Проверка получения информации о заказе без авторизации')
     def test_get_order_without_login(self):
         token = ''
-        get_order = requests.get(f'{Endpoints.USER_ORDER_INFO_URL}/{''}', headers={'Authorization': f'{token}'})
+        get_order = requests.get(f'{Endpoints.USER_ORDER_INFO_URL}/', headers={'Authorization': f'{token}'})
         assert get_order.status_code == 401 and get_order.json()['message'] == Massage.ERROR_MASSAGE_NOT_AUTHORIZE
