@@ -1,5 +1,5 @@
 class Endpoints:
-    MAIN_URL = 'https://stellarburgers.nomoreparties.site/'         #главная часть url
+    MAIN_URL = 'https://stellarburgers.education-services.ru/'         #главная часть url
 
     INGREDIENTS_URL = f'{MAIN_URL}api/ingredients'                  #url для получения списка ингредиентов
 
